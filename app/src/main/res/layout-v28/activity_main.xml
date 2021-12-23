@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#4D000000"
+        android:gravity="center"
+        android:padding="0dp"
+        android:paddingTop="16dp"
+        android:text="@string/welcome"
+        android:textColor="#E6E6FA"
+        android:textFontWeight="700"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#B3064153"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/this_is_my_first_android_app_performed_by_a_student_of_the_kn_41_group"
+        android:textColor="#E6E6FA"
+        android:textFontWeight="700"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:backgroundTint="#5EB395"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/reward"
+        android:textColorLink="#E3E2E2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:iconTint="#00C12424"
+        app:iconTintMode="screen"
+        app:rippleColor="#00FFFFFF" />
+
+</LinearLayout>

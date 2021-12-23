@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android_vm</string>
+    <string name="this_is_my_first_android_app_performed_by_a_student_of_the_kn_41_group">Це робота студента групи КН41 Деревецького Степана</string>
+    <string name="welcome">Ласкаво просимо!</string>
+    <string name="todo">TODO</string>
+    <string name="reward">Надіслати</string>
+</resources>
